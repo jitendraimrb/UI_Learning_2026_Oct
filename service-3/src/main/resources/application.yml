@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: service1
+    app:
+    cors:
+    allowed-origins:
+    - http://localhost:5173
+    - https://test.company.com
+    - https://company.com
